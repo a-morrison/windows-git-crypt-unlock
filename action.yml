@@ -1,0 +1,11 @@
+name: git-crypt unlock for Windows
+description: Allows for utilizing git-crypt for Windows based actions
+inputs:
+  GIT_CRYPT_SECRET:
+    description: Base64 encoded symmetric git-crypt key.
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+  - ${{ inputs.GIT_CRYPT_SECRET }}
