@@ -1,0 +1,24 @@
+{
+  "name": "windows-git-crypt-unlock",
+  "version": "1.0.0",
+  "description": "Github action based on [sliteteam/github-action-git-crypt-unlock](https://github.com/sliteteam/github-action-git-crypt-unlock) but for use on Windows envrionments. \r Most of the code in this repository is adapted from said repository to work\r in a Windows container.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-morrison/windows-git-crypt-unlock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-morrison/windows-git-crypt-unlock/issues"
+  },
+  "homepage": "https://github.com/a-morrison/windows-git-crypt-unlock#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0"
+  }
+}
