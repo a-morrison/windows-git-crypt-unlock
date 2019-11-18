@@ -1,5 +1,8 @@
 name: git-crypt unlock for Windows
 description: Allows for utilizing git-crypt for Windows based actions
+branding:
+  icon: 'unlock'
+  color: 'green'
 inputs:
   GIT_CRYPT_SECRET:
     description: Base64 encoded symmetric git-crypt key.
